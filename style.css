@@ -1,0 +1,225 @@
+/* Styling form and resume sections */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif, ;
+  margin: 20px;
+  padding: 0;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+form {
+  margin: auto;
+  background-color: rgb(228, 242, 255);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+fieldset {
+  border: 2px solid skyblue;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+}
+
+legend {
+  font-weight: bold;
+  text-align: left;
+  color: rgb(34, 29, 29);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+
+}
+
+input,textarea {
+  margin-top: 4px;
+  padding: 8px;
+  width: calc(100% - 1px);
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: skyblue;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button :hover {
+  color: white;
+}
+
+#resume-display {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid skyblue;
+  border-radius: 8px;
+  background-color: rgb(228, 242, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+#resume-display h2 {
+  color: black;
+};
+#shareable-link-container{
+  max-width: 600px;
+}
+#shareable-link-container a {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: skyblue;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid skyblue;
+  border-radius: 2px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin-top: 20px;
+
+}
+
+#shareable-link-container a:hover {
+  color: white;
+}
+#shareable-link-container p {
+  color: black;
+  text-align: center;
+}
+#shareable-link-container h2{
+  color: black;
+  text-align: center;
+}
+#download-pdf{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: skyblue;
+  max-width: 620px;
+  margin: auto;
+  border: 2px solid skyblue;
+  border-radius: 2px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin-top: 20px;
+;
+}
+/* Styling for resume display section */
+#resume-display {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+#resume-display h2 {
+  font-size: 1em;
+  color: #007BFF;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#resume-display p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+#resume-display h3 {
+  font-size: 1.8em;
+  color: #007BFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#resume-display .section {
+  margin-bottom: 30px;
+}
+
+#resume-display .resume-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#resume-display .contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+#resume-display .contact-info span {
+  font-weight: bold;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+#resume-display .contact-info i {
+  margin-right: 8px;
+  color: #007BFF;
+}
+
+#resume-display .content {
+  margin-top: 20px;
+}
+
+#resume-display .content p {
+  margin-top: 10px;
+  text-align: justify;
+  padding-left: 20px;
+  border-left: 3px solid #007BFF;
+}
+
+#resume-display .section:hover {
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
